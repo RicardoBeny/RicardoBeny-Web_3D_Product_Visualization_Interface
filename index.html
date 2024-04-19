@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projeto prático Avaliação SGI</title>
+    <style>
+        body {
+            overflow: hidden;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <canvas id = "meuCanvas2"></canvas>
+    </div>
+
+    <div>
+        <p>
+            <button id = "porta_esq">Porta Esquerda</button>
+            <button id = "porta_dir">Porta Direita</button>
+            <button id = "gaveta_topo">Gaveta Cima</button>
+            <button id = "gaveta_baixo">Gaveta Baixo</button>
+            <button id = "vista_frente">Vista Frente</button>
+            <button id = "vista_tras">Vista Trás</button>
+            <button id = "vista_cima">Vista Cima</button>
+            <button id = "vista_dir">Vista Lado Direito</button>
+            <button id = "vista_esq">Vista Lado Esquerdo</button>
+        </p>
+    </div>
+
+    <div>
+        <div>
+            <p style = "margin-left: 0.5%;">Texturas Madeira <span style = "margin-left: 1.8%;">Texturas Portas</span> <span style = "margin-left: 2%;">Texturas Maçanetas</span> </p>
+            <div style = "margin-left: 0.2%; margin-bottom: 0.8%;">
+                <img src="/models/textures/wood1.jpg" id = "madeira_vint" alt="Madeira Vintage" width="40" height="40">
+                <img src="/models/textures/wood2.jpg" id = "madeira_cinza" alt="Madeira Cinza" width="40" height="40">
+                <img src="/models/textures/wood3.jpg" id = "madeira_cer" alt="Madeira Cerejeira" width="40" height="40">
+                <img src="/models/textures/vidro.png" id = "vidro" alt="Vidro" width="40" height="40" style = "margin-left: 0.5%;">
+                <img src="/models/textures/textura_pontilhada.jpg" id = "pontilhada" alt="textura_pontilhada" width="40" height="40">
+                <img src="/models/textures/couro.jpg" id = "couro" alt="Couro" width="40" height="40">
+                <img src="/models/textures/handler_metal.png" id = "handler_metal" alt="Metal" width="40" height="40" style = "margin-left: 0.5%;">
+                <img src="/models/textures/handler_white.jpg" id = "handler_branco" alt="Branca" width="40" height="40">
+                <img src="/models/textures/handler_preto.jpg" id = "handler_preto" alt="Metal Preto" width="40" height="40">
+            </div> 
+        </div>
+    </div>
+
+    <script src="/node_modules/three/build/three.min.js"></script>
+    <script src="/node_modules/three/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="/node_modules/three/examples/js/controls/OrbitControls.js"></script>
+	<script src="/node_modules/three/examples/js/libs/stats.min.js"></script>
+    <!-- <script src="main.js"></script> -->
+</body>
+</html>
