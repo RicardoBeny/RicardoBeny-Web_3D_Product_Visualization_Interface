@@ -11,3 +11,6 @@ This project aims to develop a web-based 3D interface for visualizing products f
 ## Authors
 - Ricardo Santos
 - Bruno Ferreira
+
+## How to setup
+- In the Web_3D_Product_Visualization_Interface\models extract the .zip file
